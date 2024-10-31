@@ -1,0 +1,62 @@
+#gns_layer, #gns_modal {
+  display:none;
+  position:fixed;
+}
+#gns_layer {
+  z-index:1000;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background:rgba(0,0,0,.4);
+}
+#gns_modal {
+  z-index:1001;
+  top:50%;
+  left:50%;
+  width:400px;
+  background:#fff;
+  border-radius:3px;
+  margin-left:-201px;
+  border:1px solid #ccc;
+  box-shadow:0 0 6px rgba(0,0,0,.3);
+}
+#gns_open, #gns_modal span, #PGNS .inside label {
+  cursor:pointer;
+}
+#gns_modal h4, #gns_modal ol {
+  border-bottom:1px solid #ccc;
+}
+#gns_modal h4 {
+  color:#454545;
+  padding:0 15px;
+  margin:0 0 15px;
+  font:bold 16px/35px Arial;
+}
+#gns_modal span {
+  position:absolute;
+  top:0;
+  right:15px;
+  color:#333;
+  font:bold 22px/35px Arial;
+}
+#gns_modal span:hover {
+  color:#df4a3d;
+}
+#gns_modal ol {
+  margin:0;
+  padding:0 15px 0 35px;
+}
+#gns_modal li {
+  font:14px/19px Arial;
+  margin-bottom:15px;
+}
+#gns_modal i {
+  line-height:35px;
+  padding:0 15px;
+}
+#gns_modal mark {
+  border-radius:3px;
+  background:#eee;
+  padding:3px;
+}

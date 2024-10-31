@@ -1,0 +1,52 @@
+#PGNS, #gns_modal {
+  cursor:default;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  user-select:none;
+}
+#PGNS .inside label,
+#gns_default label {
+  position:relative;
+  top:3px;
+  display:inline-block;
+  margin-bottom:7px;
+}
+#PGNS .inside select,
+#PGNS .inside [type=text] {
+  margin-bottom:10px;
+}
+#PGNS .inside hr,
+#gns_default hr {
+  margin:7px -12px 10px -10px;
+  background:#ddd;
+  border:none;
+  color:#ddd;
+  height:1px;
+}
+#gns_add {
+  margin-right:5px;
+}
+
+/* Defaults settings */
+#gns_default {
+  padding:0 15px 15px;
+}
+#gns_default hr {
+  margin:10px -15px 5px;
+}
+#gns_default button {
+  float:right;
+  height:30px;
+  cursor:pointer;
+  margin:3px 0 8px;
+}
+#gns_default p {
+  float:left;
+  line-height:32px;
+}
+#gns_default .fail {
+  color:#be2a2a;
+}
+#gns_default .done {
+  color:#22a569;
+}
